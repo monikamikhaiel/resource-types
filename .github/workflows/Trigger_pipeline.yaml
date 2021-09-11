@@ -8,7 +8,7 @@ jobs:
        - name: Invoke workflow in another repo with inputs
          uses: benc-uk/workflow-dispatch@v1
          with:
-            workflow: .github/workflows/actions.yaml
+            workflow: CI_CD pipeline
             repo: monikamikhaiel/resource-types-website/
             token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
      
